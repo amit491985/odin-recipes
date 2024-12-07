@@ -1,13 +1,25 @@
 /* styles for recipe page */
 body{
     background-color: rgb(255, 190, 70);
+    width: 800px;
+    margin: 0 auto;
 }
 
 h1, h3{
-    font-weight: bolder;
+    font-weight: bold;
     color: black;
     background-color: rgb(255, 255, 255);
     text-align: center;
+    font-size: 20px;
+}
+
+div{
+    padding:5px;
+}
+
+.dish_img{
+    margin: 0 auto;
+    width: 267px;
 }
 
 ol{
@@ -21,5 +33,29 @@ li{
 #pic1{
     height: 200px;
     width: auto;
-    border-radius: 10%;
+    border-radius: 50%;
+    display: block;
+}
+
+.descr{
+    background-color: white;
+    padding: 30px;
+}
+
+.descr p1,h3{
+    padding: 8px;
+    border: 2px;
+}
+
+p{
+    padding: 8px;
+    margin: 40px;
+    border: 2px;
+    border: 5px double black;
+}
+
+.ingredients{
+    background-color: white;
+    padding-left: 50px;
+    margin-top:-70px;
 }
